@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+}
+.fund-me-app {
+  background-image: radial-gradient(
+    circle at 0% 0%,
+    #373b52,
+    #252736 51%,
+    #1d1e26
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(57, 63, 84, 0.8);
+  padding: 20px;
+  min-width: 450px;
+  color: #bfd2ff;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #bfd2ff;
+  border-radius: 5px;
+  color: #bfd2ff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #bfd2ff;
+  /* border: none; */
+  color: rgba(57, 63, 84, 0.8);
+}
+
+#fundButton {
+  height: fit-content;
+  margin: auto;
+}
+
+button,
+label,
+input::placeholder,
+input {
+  font-size: 24px;
+  color: #bfd2ff;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 0 0;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba(57, 63, 84);
+}
+
+input::placeholder {
+  padding-bottom: 10px;
+}
